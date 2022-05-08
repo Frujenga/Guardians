@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>${Title}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <style>
+        #header {
+            background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/30fc971e-6af8-44ad-8445-8344811b9a24/df4zrsa-9c64d491-2891-41a9-9f58-56bdf0972b6f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzMwZmM5NzFlLTZhZjgtNDRhZC04NDQ1LTgzNDQ4MTFiOWEyNFwvZGY0enJzYS05YzY0ZDQ5MS0yODkxLTQxYTktOWY1OC01NmJkZjA5NzJiNmYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.IkcyELLOBskJSUu3MRWFclU1bt_j20o2KYUPxbQ8yek);
+            min-height: 180px;
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+            background-position: center;
+            text-align: center;
+            background-size: contain;
+        }
+            /* Sticky footer styles */
+            html {
+            position: relative;
+            min-height: 100%;
+        }
+        body {
+            background-color: black;
+            color: crimson;
+            background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/30fc971e-6af8-44ad-8445-8344811b9a24/df4zrj2-5983af21-e1fe-4984-836b-af3d7fb0e9d6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzMwZmM5NzFlLTZhZjgtNDRhZC04NDQ1LTgzNDQ4MTFiOWEyNFwvZGY0enJqMi01OTgzYWYyMS1lMWZlLTQ5ODQtODM2Yi1hZjNkN2ZiMGU5ZDYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.g70CNJzvCR6dFu-wu_418WXI80wgQp0UZ1FD32vk3nQ);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            /* Set the fixed height of the footer here */
+            height: 60px;
+            background-color: #f5f5f5;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 12px;
+            padding-top: 20px;
+        }
+
+            a:link {
+                color: black;
+            }
+
+
+            a:visited {
+                color: dimgray;
+            }
+
+
+            a:hover {
+                color: gray;
+            }
+
+
+            a:active {
+                color: grey;
+            }
+
+        #pic {
+            padding-top: 30px;
+            float: left;
+        }
+
+        #obj {
+            padding-left: 2%;
+            width: 50%;
+            float: left;
+        }
+
+        .container .text-muted {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Static navbar -->
+    <div id="header"></div>
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Your App</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" ws-hole="MenuBar"></ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="http://websharper.com">websharper.com</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+    <div class="container">
+        <div ws-replace="Body">
+        </div>
+    </div>
+  
+    <script ws-replace="scripts"></script>
+</body>
+</html>

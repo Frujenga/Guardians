@@ -1,0 +1,112 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\badar\\source\\repos\\Guardians\\Guardians.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\badar\\source\\repos\\Guardians\\Guardians.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\badar\\source\\repos\\Guardians\\Guardians.fsproj",
+        "projectName": "Guardians",
+        "projectPath": "C:\\Users\\badar\\source\\repos\\Guardians\\Guardians.fsproj",
+        "packagesPath": "C:\\Users\\badar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\badar\\source\\repos\\Guardians\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\badar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            },
+            "Giraffe.ViewEngine": {
+              "target": "Package",
+              "version": "[1.4.0, )",
+              "generatePathProperty": true
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "generatePathProperty": true
+            },
+            "WebSharper": {
+              "target": "Package",
+              "version": "[4.7.3.446, )",
+              "generatePathProperty": true
+            },
+            "WebSharper.AspNetCore": {
+              "target": "Package",
+              "version": "[4.7.1.166, )",
+              "generatePathProperty": true
+            },
+            "WebSharper.Compiler": {
+              "target": "Package",
+              "version": "[5.0.0.120, )",
+              "generatePathProperty": true
+            },
+            "WebSharper.FSharp": {
+              "target": "Package",
+              "version": "[4.7.3.446, )",
+              "generatePathProperty": true
+            },
+            "WebSharper.Html": {
+              "target": "Package",
+              "version": "[4.7.1.201, )",
+              "generatePathProperty": true
+            },
+            "WebSharper.UI": {
+              "target": "Package",
+              "version": "[4.7.2.243, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

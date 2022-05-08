@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\badar\.nuget\packages\;D:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.11.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\badar\.nuget\packages\" />
+    <SourceRoot Include="D:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\badar\.nuget\packages\fsharp.core\5.0.0</PkgFSharp_Core>
+    <PkgWebSharper Condition=" '$(PkgWebSharper)' == '' ">C:\Users\badar\.nuget\packages\websharper\4.7.3.446</PkgWebSharper>
+    <PkgWebSharper_UI Condition=" '$(PkgWebSharper_UI)' == '' ">C:\Users\badar\.nuget\packages\websharper.ui\4.7.2.243</PkgWebSharper_UI>
+    <PkgWebSharper_Html Condition=" '$(PkgWebSharper_Html)' == '' ">C:\Users\badar\.nuget\packages\websharper.html\4.7.1.201</PkgWebSharper_Html>
+    <PkgWebSharper_FSharp Condition=" '$(PkgWebSharper_FSharp)' == '' ">C:\Users\badar\.nuget\packages\websharper.fsharp\4.7.3.446</PkgWebSharper_FSharp>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\badar\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgWebSharper_Compiler Condition=" '$(PkgWebSharper_Compiler)' == '' ">C:\Users\badar\.nuget\packages\websharper.compiler\5.0.0.120</PkgWebSharper_Compiler>
+    <PkgWebSharper_AspNetCore Condition=" '$(PkgWebSharper_AspNetCore)' == '' ">C:\Users\badar\.nuget\packages\websharper.aspnetcore\4.7.1.166</PkgWebSharper_AspNetCore>
+    <PkgSixLabors_ImageSharp Condition=" '$(PkgSixLabors_ImageSharp)' == '' ">C:\Users\badar\.nuget\packages\sixlabors.imagesharp\2.1.1</PkgSixLabors_ImageSharp>
+    <PkgGiraffe_ViewEngine Condition=" '$(PkgGiraffe_ViewEngine)' == '' ">C:\Users\badar\.nuget\packages\giraffe.viewengine\1.4.0</PkgGiraffe_ViewEngine>
+  </PropertyGroup>
+</Project>
